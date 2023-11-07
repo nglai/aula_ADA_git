@@ -1,3 +1,11 @@
-para fazer o merge preciso testar o arquivo helloada.md :smile:
+# Descrição
+Inclua um resumo das alterações feitas e do problema corrigido.
 
-## template teste
+# Tipo de mudança
+- [ ] Correção de bug
+- [ ] Novo recurso
+- [ ] Alteração de funcionalidade já existente
+
+# Foi testado antes?
+- [ ] Sim
+- [ ] Não
