@@ -1,6 +1,5 @@
 from flask import Flask, render_template
 import json
-import markdown
 import os
 import codecs
 
@@ -15,7 +14,7 @@ for i in posts:
           print("Arquivo já existe")
     else:
         nome_arquivo = i["id"] + ".html"
-        filename = f"templates/{nome_arquivo}"
+        filename = f"{nome_arquivo}"
         f = codecs.open(filename, "w", "utf-8")
         html_template = f"""
         <html>
